@@ -19,9 +19,9 @@ header {
 }
 
 header h1 {
+    color: #323942;
     font-weight: bold;
     font-size: 36 px;
-    color: #4f7cc0;
     margin: 0;
 }
 
@@ -46,4 +46,28 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url("./images/skyline.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    background-color: #4f7cc0;
+    padding: 20px;
+    color: #323942;
+    font-weight: bolder;
+    width: 21%;
+    margin:30% 0 3.5% 50%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
