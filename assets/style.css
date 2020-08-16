@@ -71,3 +71,29 @@ header nav ul li a {
     align-items: flex-end;
     flex-wrap: wrap;
 }
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.about-text {
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 50px auto;
+    color: #323942;
+    text-align: center;
+    font-size: 48px;
+    border-right: 1px solid #323942;
+}
+
+.about-p {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 60%;
+    margin: 20px auto;
+    color: #323942;
+    text-align: left;
+}
