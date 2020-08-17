@@ -7,6 +7,7 @@
 body {
     color: #323942;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
 }
 
 /* apply styles to <header> */
@@ -77,6 +78,7 @@ header nav ul li a {
     flex-direction: row;
     justify-content: space-between;
     background-color: whitesmoke;
+    align-items: center;
 }
 
 .about-text {
@@ -86,7 +88,7 @@ header nav ul li a {
     color: #323942;
     text-align: center;
     font-size: 48px;
-    border-right: 1px solid #323942;
+    border-right: 3px solid #323942;
 }
 
 .about-p {
@@ -96,4 +98,105 @@ header nav ul li a {
     margin: 20px auto;
     color: #323942;
     text-align: left;
+}
+
+.work-text {
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 60px auto 0 30px;
+    color: #323942;
+    text-align: center;
+    font-size: 48px;
+    border-right: 3px solid #323942;
+    float: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    background-color: whitesmoke;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.box-1 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    font-size: 30;
+    align-items: center;
+}
+
+.box-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    font-size: 30;
+    align-items: center;
+    text-align: center;
+}
+
+.box-3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    align-items: center;
+    text-align: center;
+}
+
+.box-4 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    align-items: center;
+    text-align: center;
+}
+
+.box-5 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.contact-text {
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 50px auto;
+    color: #323942;
+    text-align: center;
+    font-size: 48px;
+    border-right: 3px solid #323942;
+}
+
+.contact-info {
+    font-size: 20px;
+    text-decoration: underline;
+    line-height: 1.5;
+    width: 60%;
+    margin: 20px auto;
+    color: #323942;
+    text-align: left;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
