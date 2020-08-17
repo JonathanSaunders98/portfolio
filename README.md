@@ -2,6 +2,6 @@
 
 ## Information about me with links to my work.
 
-<img src="./assets/images/screenshot.jpg>
+![image](./assets/imgages/screenshot.jpg)
 
 https://jonathansaunders98.github.io/portfolio/
